@@ -415,6 +415,8 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 90px;
    padding-bottom: 60px;
 }
+#portfolio a, #portfolio a:visited  { color: #11ABB0; }
+#portfolio a:hover, #portfolio a:focus { color: #313131; }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
