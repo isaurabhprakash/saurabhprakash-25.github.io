@@ -1,0 +1,68 @@
+
+.sidebar
+{
+	width:350px;
+	height:800px;
+	float:left;
+}
+.content
+{
+	margin-left:2%;
+	font-size:20px;
+	padding:2% 5% 0% 20%;
+}
+
+.mainbody
+{
+	width:500px;
+}
+.gallery-mainbody
+{
+	float:left;
+}
+a .fa {
+color: black;
+}
+#quote
+{
+	font-family:Helvetica;
+	font-size:0.9em;
+	color:grey;
+}
+#bodytext
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.57em;
+	color:grey;
+}
+
+h1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+	color:#515050;
+}
+ul
+{
+	list-style-type: none;
+	padding-top:10%;
+	color:#474849;
+}
+
+li a
+{
+	text-decoration:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:grey;
+	font-size:0.7em;
+}
+.menu
+{
+	font-size: 16px;
+	position:absolute;
+	left:200px; 
+	width:100px; 
+	height:20px; 
+	z-index:1; 	
+	visibility: visible;	
+}
