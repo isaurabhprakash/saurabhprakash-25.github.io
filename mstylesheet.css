@@ -4,7 +4,7 @@ html {
 
 body {
   overflow: hidden;
-  background: #000000  no-repeat center center fixed;
+  background: #bcdee7 url("../img/bg.jpg") no-repeat center center fixed;
   background-size: cover;
   position: fixed;
   padding: 0px;
@@ -50,11 +50,7 @@ h2 {
 p {
   margin: 0px;
 }
-table.fixed {table-layout:fixed; width:20em;}/*Setting the table width is important!*/
-table.fixed td {overflow:hidden;}/*Hide text outside the cell.*/
-table.fixed td:nth-of-type(1) {width:20px;}/*Setting the width of column 1.*/
-table.fixed td:nth-of-type(2) {width:30px;}/*Setting the width of column 2.*/
-table.fixed td:nth-of-type(3) {width:40px;}/*Setting the width of column 3.*/
+
 .profile-card {
   background: #FFB300;
   width: 56px;
@@ -122,6 +118,11 @@ table.fixed td:nth-of-type(3) {width:40px;}/*Setting the width of column 3.*/
   -webkit-animation: scaleIn 0.3s 3.5s ease forwards;
   animation: scaleIn 0.3s 3.5s ease forwards;
 }
+table.fixed {table-layout:fixed; width:20em;}/*Setting the table width is important!*/
+table.fixed td {overflow:hidden;}/*Hide text outside the cell.*/
+table.fixed td:nth-of-type(1) {width:20px;}/*Setting the width of column 1.*/
+table.fixed td:nth-of-type(2) {width:30px;}/*Setting the width of column 2.*/
+table.fixed td:nth-of-type(3) {width:40px;}/*Setting the width of column 3.*/
 
 .profile-card header a > img {
   width: 120px;
@@ -153,13 +154,11 @@ table.fixed td:nth-of-type(3) {width:40px;}/*Setting the width of column 3.*/
   -webkit-animation: moveIn 1s 3.1s ease forwards;
   animation: moveIn 1s 3.1s ease forwards;
 }
+
 a .fa {
 color: black;
 font-size:1.5em;
 }
-
-
-
 @-webkit-keyframes init {
   0% {
     width: 0px;
