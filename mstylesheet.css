@@ -1,0 +1,58 @@
+.wrapper{
+  /*   expands the card's parent to fill the whole web page  */
+  
+  width: 100%;
+  margin: 20px 20px;
+}
+.card{
+  /*  places the card at the center of the wrapper and makes the card fill half of its parent width.
+   */
+  background-color: white;
+    padding:20px 20px;
+  margin: 0 auto;
+  border-radius: 3px;
+   border: 1px solid #ddd;
+   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  width: 50%;
+  z-index:1;
+
+}
+
+.card .card-header{
+  border-bottom: 1px solid #ddd;
+    margin: 10px
+}
+
+.card .card-content{
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  
+}
+
+
+.card .card-header{
+  text-align: center;
+    padding: 15px;
+}
+
+
+
+.card-footer{
+  display: inline-block;
+  width: 100%;
+}
+
+
+#drake{
+/*   sets the border of the drake image as a circle */
+  
+  border-radius:50%;
+  width: 100px;
+  height:100px;
+}
+.card-footer ul li {
+  text-align: center;
+  list-style: none;
+display: inline-block;
+  padding: 0 5px 0 10px;
+}
