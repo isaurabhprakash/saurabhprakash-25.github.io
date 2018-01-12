@@ -3,6 +3,7 @@
 	<head>
 		<title>Saurabh Prakash</title>
 		<link rel="stylesheet" href="stylesheet.css"/>
+		<link rel="stylesheet" type="text/css" href="animate.css">
 		<!-- Awesome Fonts -->
 		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" href="favicon.png" >
@@ -17,15 +18,31 @@
   					window.location = "http://saurabhprakash.me/mobile";
 			}
 		</script>
+		<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+		<script>
+			$(document).ready(function()
+			{
+				$("h1").addClass("animated bounceInUp");
+			});
+		</script>
+		<script>
+			$(document).ready(function()
+			{
+				$("#menu").click(function()
+				{
+					$("h1").addClass("animated bounceInUp");
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<div class="sidebar">
 		<img src="1.png" style="width: 250px;height: 250px"/>
 		<ul>
-			<li><a href="index.html">. welcome</a></li>
-			<li><a href="resume.html">. resume</a></li>
-			<li><a href="projects.html">. projects</a></li>
-			<li><a href="contact.html">. contact</a></li>
+			<li id="menu"><a href="index.html">. welcome</a></li>
+			<li id="menu"><a href="resume.html">. resume</a></li>
+			<li id="menu"><a href="projects.html">. projects</a></li>
+			<li id="menu"><a href="contact.html">. contact</a></li>
 		</ul>	
 		</div>
 	<div class="content">
